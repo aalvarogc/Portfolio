@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+    <!-- Iconografía -->
+    <script src="https://kit.fontawesome.com/00fac58af6.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <header>
+            <!-- MENU ICON -->
+            <div id="menu--icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <!-- MENU NAV -->
+            <nav class="header--nav">
+                <a href="#" class="header--nav--link">Home</a>
+                <a href="#aboutMe" class="header--nav--link">About me</a>
+                <a href="#skills" class="header--nav--link">Skills</a>
+                <a href="#testimonies" class="header--nav--link">Testimonies</a>
+                <a href="#myWorks" class="header--nav--link">My Works</a>
+                <a href="#services" class="header--nav--link">Services</a>
+                <a href="#contact" class="header--nav--link">Contact</a>
+            </nav>
+            <!-- HEADER CONTENT -->
+            <section id="header--content">
+                <h1>Portfolio</h1>
+                <h2 class="typing_anim">Álvaro García Campos</h2>
+            </section>
+            <!-- DOWN ARROW ICON -->
+            <img src="img/downArrow.svg" id="downArrow" alt="Down arrow icon">
+        </header>
+
+        <!-- PORTFOLIO SECTIONS -->
+        <!-- ABOUT ME -->
+        <section id="aboutMe" class="portfolioSection animated">
+            <img src="img/about.svg" alt="About section image">
+            <div id="aboutMe--content">
+                <h2>ABOUT ME</h2>
+                <span>Hello, I am Álvaro García Campos.<br>I am a fullstack developer. I make webpages with HTML, CSS, JavaScript, JQuery, PHP, Angular, Vue, Boostrap, Laravel and Symphony. I also has some knowledge about databases (MySQL, MariaDB, Oracle and PLSQL).<br> I also love pets, like dogs and cats. Mi hobbies are going to the gym and hanging out my friends.</bt></span>
+            </div>
+        </section>
+        <!-- SKILLS -->
+        <section id="skills" class="portfolioSection animated">
+            <div id="design--skills">
+                <h2 class="skills--subtitle">Design skills</h2>
+                <div class="skills--content">
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>Web Design</h3>
+                            <span>70%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress1"></span>
+                        </div>
+                    </div>
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>Print Design</h3>
+                            <span>75%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress2"></span>
+                        </div>
+                    </div>
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>Logo Design</h3>
+                            <span>60%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress3"></span>
+                        </div>
+                    </div>
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>Graphic Design</h3>
+                            <span>80%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress4"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="coding--skills">
+                <h2 class="skills--subtitle">Coding skills</h2>
+                <div class="skills--content">
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>HTML / CSS</h3>
+                            <span>90%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress5"></span>
+                        </div>
+                    </div>
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>JavaScript</h3>
+                            <span>85%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress6"></span>
+                        </div>
+                    </div>
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>Python</h3>
+                            <span>80%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress7"></span>
+                        </div>
+                    </div>
+                    <div class="skills--bar">
+                        <div class="skill--name">
+                            <h3>SQL</h3>
+                            <span>85%</span>
+                        </div>
+                        <div class="skills--progress">
+                            <span id="barProgress8"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TESTIMONIES -->
+        <section id="testimonies" class="portfolioSection animated">
+            <h2>Testimonies</h2>
+            <div id="testimonies--cards">
+                <div class="testimonie">
+                    <img src="img/albert-einstein.jpg" alt="Albert Einstein" class="testimonie--img">
+                    <div class="testimonie--info">
+                        <h3 class="testimonie--title">Albert Einstein</h3>
+                        <p class="testimonie--text">A lo largo del tiempo que hemos estado con los servicios de Álvaro, nuestra clientela ha ido en aumento.</p>
+                    </div>
+                </div>
+                <div class="testimonie">
+                    <img src="img/messi.jpg" alt="Lionel Messi" class="testimonie--img">
+                    <div class="testimonie--info">
+                        <h3 class="testimonie--title">Leo Messi</h3>
+                        <p class="testimonie--text">Trabajar con Álvaro le ha dado a mi empresa la seriedad necesaria para transmitir la confianza que mis clientes necesitan.</p>
+                    </div>
+                </div>
+                <div class="testimonie">
+                    <img src="img/rafa-nadal.webp" alt="Rafa Nadal" class="testimonie--img">
+                    <div class="testimonie--info">
+                        <h3 class="testimonie--title">Rafa Nadal</h3>
+                        <p class="testimonie--text">Nuestra empresa ha sido cliente de Álvaro por más de 2 años y la experiencia ha sido excelente. El personal siempre es cortés y profesional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MY WORKS -->
+        <section id="myWorks" class="portfolioSection animated">
+            <h2>My Works</h2>
+            <div id="works--gallery">
+                <figure class="work">
+                    <img src="img/pingpong.PNG" id="work-img-1" alt="Ping Pong Game" class="work--img">
+                    <figcaption>Work 1 - Ping Pong</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="img/creditCard.png" id="work-img-2" alt="Credit Card with animations" class="work--img">
+                    <figcaption>Work 2 - Credit Card</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="img/formStyles.png" id="work-img-3" alt="Form with styles" class="work--img">
+                    <figcaption>Work 3 - Form Validation</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="img/guessColor.png" id="work-img-4" alt="Guessing Color Game" class="work--img">
+                    <figcaption>Work 4 - Guessing Color</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="img/space.png" id="work-img-5" alt="Space information web" class="work--img">
+                    <figcaption>Work 5 - Space Web</figcaption>
+                </figure>
+                <figure class="work">
+                    <img src="img/pairsgame.png" id="work-img-6" alt="Pairs Game" class="work--img">
+                    <figcaption>Work 6 - Pairs Game</figcaption>
+                </figure>
+            </div>
+        </section>
+        <!-- SERVICES -->
+        <section id="services" class="portfolioSection animated">
+            <h2>Services</h2>
+            <div id="services--cards">
+                <div class="service--card">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <div class="service--card--info">
+                        <h3 class="service--card--title">UI DESING</h3>
+                        <p class="service--card--text">I can make Web Pages with a pretty interface that would be too comfortable to the user. I am specialized in making minimalist Web Pages.</p>
+                    </div>
+                </div>
+                <div class="service--card">
+                    <i class="fa-regular fa-user"></i>
+                    <div class="service--card--info">
+                        <h3 class="service--card--title">FRONT END DEVELOPER</h3>
+                        <p class="service--card--text">I am able to make a Web Page Interface with some tools: HTML5, CSS3, JavaScript and some frameworks.</p>
+                    </div>
+                </div>
+                <div class="service--card">
+                    <i class="fa-solid fa-database"></i>
+                    <div class="service--card--info">
+                        <h3 class="service--card--title">BACK END DEVELOPER</h3>
+                        <p class="service--card--text">I also work on the Back End. I use some programming languages, like PHP and Python. Also, I work with databases (MySQL, Oracle).</p>
+                    </div>
+                </div>
+                <div class="service--card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <div class="service--card--info">
+                        <h3 class="service--card--title">MOBILE APPLICATIONS</h3>
+                        <p class="service--card--text">I also can make simple Mobile Applications with Java, Kotlin and some programming languages more.</p>
+                    </div>
+                </div>
+                <div class="service--card">
+                    <i class="fa-brands fa-linux"></i>
+                    <div class="service--card--info">
+                        <h3 class="service--card--title">LINUX S.O.</h3>
+                        <p class="service--card--text">I have some knowledge about Linux S.O. I can create partitions, modify the size of a hard disk, make servers...</p>
+                    </div>
+                </div>
+                <div class="service--card">
+                    <i class="fa-regular fa-handshake"></i>
+                    <div class="service--card--info">
+                        <h3 class="service--card--title">TEAMWORK</h3>
+                        <p class="service--card--text">One positive point of me is the teamwork. I love work with my partners, help them and receive every type of tips.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="contact">
+            <h2>Contact</h2>
+            <!-- CONTACT FORM -->
+            <form action="" method="get" id="contactForm">
+                <label for="nombre">Nombre: 
+                    <input type="text" name="" required id="nombre" class="mainInput">
+                </label><br>
+                <p class="wrongText"></p>
+                <label for="apellidos">Apellidos: 
+                    <input type="text" name="" required id="apellidos" class="mainInput">
+                </label><br>
+                <p class="wrongText"></p>
+                <label for="email">Email: 
+                    <input type="text" name="" required id="email" class="mainInput">
+                </label><br>
+                <p class="wrongText"></p>
+                <label for="telefono">Teléfono: 
+                    <input type="tel" name="" required id="telefono" class="mainInput">
+                </label><br>
+                <p class="wrongText"></p>
+                <label for="description">Descripción:
+                    <textarea id="description" cols="20" rows="5" maxlength="20"></textarea>
+                </label>
+                <input type="submit" value="Enviar" id="submitBtn">
+                <input type="reset" value="Limpiar formulario" id="resetBtn">
+            </form>
+        </footer>
+    </main>
+
+    <!-- ASIDE -->
+    <aside>
+        <!-- WEB PAGE LOGO -->
+        <div id="logo">
+            <img src="img/logo.png" alt="Web Page Logo">
+        </div>
+        <!-- SOCIAL NETWORKS -->
+        <div id="social-networks">
+            <a href="https://es-es.facebook.com/" title="Sígueme en Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com" title="Sígueme en Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" title="Sígueme en Instragram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" title="Sígueme en Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/aalvarogc" title="Sígueme en Github"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <!-- RIGHT ARROW ICON -->
+        <div id="rightArrow">
+            <img src="img/rightArrow.svg" id="imgright" alt="Right arrow icon">
+        </div>
+    </aside>
+</body>
+</html>
